@@ -15,6 +15,11 @@ import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 
 //Source: https://www3.ntu.edu.sg/home/ehchua/programming/java/Javafx1_intro.html#zz-1.3
+
+/**
+ * A class that creates a Calculator Application with buttons, operators, and a text field.
+ * It includes the use of event handlers, stages, scenes, and GridPane.
+ */
 public class JavaFXCalculator extends Application {
    private TextField tfDisplay;    // display textfield
    private Button[] btns;          // 16 buttons
@@ -104,7 +109,12 @@ public class JavaFXCalculator extends Application {
       tfDisplay.setText(result + "");
    }
 
-   // Setup the UI
+   
+     /**
+     * Sets up the UI via JavaFX commands.
+     * 
+     * @param primaryStage The Stage being used and presented
+     */
    @Override
    public void start(Stage primaryStage) {
       // Setup the Display TextField
@@ -152,8 +162,12 @@ public class JavaFXCalculator extends Application {
       primaryStage.setTitle("JavaFX Calculator");
       primaryStage.show();
    }
-
-   // runs the program
+   
+     /**
+     * Runs the program.
+     *
+     * @param args The list of String obj
+     */
    public static void main(String[] args) {
       launch(args);
    }
