@@ -108,7 +108,6 @@ public class JavaFXCalculator extends Application {
       }
       tfDisplay.setText(result + "");
    }
-
    
      /**
      * Sets up the UI via JavaFX commands.
