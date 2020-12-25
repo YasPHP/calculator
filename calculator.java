@@ -163,7 +163,7 @@ public class JavaFXCalculator extends Application {
    }
    
      /**
-     * Runs the program.
+     * Runs the program by launching args.
      *
      * @param args The list of String obj
      */
